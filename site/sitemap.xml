@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/data/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/data/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/data/access/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/data/access/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/data/options/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/data/options/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/hpc/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/hpc/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/hpc/access/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/hpc/access/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/hpc/filetransfer/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/hpc/filetransfer/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
     <url>
-         <loc>https://docs.eresearch.uct.ac.za/hpc/login/</loc>
+         <loc>https://uct-eresearch.github.io/mkdocs-poc/hpc/login/</loc>
          <lastmod>2025-08-15</lastmod>
     </url>
 </urlset>

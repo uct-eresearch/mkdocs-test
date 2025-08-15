@@ -1,5 +1,8 @@
 site_name: UCT eResearch Documentation
 site_url: https://uct-eresearch.github.io/mkdocs-poc/
+
+use_directory_urls: true
+
 theme:
   name: material
   logo: img/logo.png
@@ -62,6 +65,7 @@ nav:
     - hpc/index.md
     - Getting access: hpc/access.md
     - Logging in: hpc/login.md
+    - Transferring files: hpc/filetransfer.md
   - Research Data Storage:
     - data/index.md
     - Data storage options: data/options.md
