@@ -1,68 +1,29 @@
-site_name: UCT eResearch Documentation
-site_url: https://uct-eresearch.github.io/mkdocs-poc/
-theme:
-  name: material
-  logo: img/logo.png
-  favicon: img/favicon.png
-  features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.sections
-    - navigation.prune
-    - navigation.indexes
-    - content.tabs.link
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-extra_css:
-  - stylesheets/extra.css
-
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.tabbed:
-      alternate_style: true 
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-
-
-extra:
-  consent:
-    title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-    actions:
-      - accept
-      - manage
-      - reject
-
-copyright: >
-  Copyright &copy; 2025 University of Cape Town - <a href="#__consent">Change cookie settings</a>
-
-nav:
-  - About UCT eResearch: index.md
-  - High Performance Computing: 
-    - hpc/index.md
-    - Getting access: hpc/access.md
-    - Logging in: hpc/login.md
-  - Research Data Storage:
-    - data/index.md
-    - Data storage options: data/options.md
-    - Getting access: data/access.md
+name: ci 
+on:
+  push:
+    branches: 
+      - master
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache 
+          restore-keys: |
+            mkdocs-material-
+      - run: pip install mkdocs-material 
+      - run: mkdocs gh-deploy --force
