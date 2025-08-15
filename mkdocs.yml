@@ -1,5 +1,5 @@
 site_name: UCT eResearch Documentation
-site_url: https://docs.eresearch.uct.ac.za
+site_url: https://uct-eresearch.github.io/mkdocs-poc/
 theme:
   name: material
   logo: img/logo.png
