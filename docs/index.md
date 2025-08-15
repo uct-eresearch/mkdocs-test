@@ -1,17 +1,4 @@
-# Welcome to MkDocs
+# About UCT eResearch
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The **[University of Cape Town's eResearch Centre](https://uct.ac.za/eresearch)** is a distributed centre that promotes the use of advanced information technologies in supporting innovative research practice and accelerating and transforming research throughout the research lifecycle. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
