@@ -1,0 +1,4 @@
+site_name: UCT eResearch Documentation
+site_url: https://docs.eresearch.uct.ac.za
+theme:
+  name: material
