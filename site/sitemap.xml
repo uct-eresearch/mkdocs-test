@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/data/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/data/access/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/data/options/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/hpc/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/hpc/access/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/hpc/filetransfer/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.eresearch.uct.ac.za/hpc/login/</loc>
+         <lastmod>2025-08-15</lastmod>
+    </url>
+</urlset>
