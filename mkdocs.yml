@@ -8,13 +8,21 @@ theme:
   logo: img/logo.png
   favicon: img/favicon.png
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
     - navigation.prune
     - navigation.indexes
     - content.tabs.link
+    - toc.integrate
+    - navigation.path
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - toc.follow          # Highlight on scroll
+
   palette:
     - scheme: default
       toggle:
@@ -29,10 +37,23 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
+  - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - admonition
+  - tables
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -41,7 +62,16 @@ markdown_extensions:
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
+  - toc:
+      permalink: true      # Add anchor links
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      toc_depth: 3        # Maximum depth
 
+plugins:
+  - glightbox
+  - search
 
 extra:
   consent:
@@ -60,13 +90,67 @@ copyright: >
   Copyright &copy; 2025 University of Cape Town - <a href="#__consent">Change cookie settings</a>
 
 nav:
-  - About UCT eResearch: index.md
-  - High Performance Computing: 
-    - hpc/index.md
-    - Getting access: hpc/access.md
-    - Logging in: hpc/login.md
-    - Transferring files: hpc/filetransfer.md
-  - Research Data Storage:
-    - data/index.md
-    - Data storage options: data/options.md
-    - Getting access: data/access.md
+    - HIGH-PERFORMANCE COMPUTING (HPC): hpc/index.md
+    - Start Here:
+      - Quick Start: hpc/start/quick-start.md
+      - Access & Accounts: hpc/start/access-accounts.md
+      - Logging In: hpc/start/login.md
+      - Running Your First Job: hpc/start/first-job.md
+      - "Basic Linux You\u2019ll Use": hpc/start/linux-101.md
+    - Do Work (Run Jobs):
+      - Scheduler Basics: hpc/work/scheduler.md
+      - Submit Batch Jobs: hpc/work/submit.md
+      - Interactive Jobs: hpc/work/interactive.md
+      - Arrays & Workflows: hpc/work/arrays-workflows.md
+      - GPUs & Accelerators: hpc/work/gpu.md
+      - Monitoring & Efficiency: hpc/work/monitoring.md
+    - Software & Environments:
+      - Modules (Basics): hpc/software/modules-basics.md
+      - Python on HPC: hpc/software/python.md
+      - R on HPC: hpc/software/r.md
+      - Compilers & Math Libs: hpc/software/compilers-libs.md
+      - Containers (Apptainer): hpc/software/containers.md
+      - Software Catalog: hpc/software/catalog.md
+    - Data & Storage:
+      - Filesystems & Quotas: hpc/data/filesystems-quotas.md
+      - Move Data (scp/rsync/Globus): hpc/data/transfer.md
+      - Manage Your Data: hpc/data/manage.md
+      - Archive & Retention: hpc/data/archive.md
+      - Databases & Datasets: hpc/data/databases.md
+    - Interactive & Portals:
+      - Open OnDemand: hpc/portals/ondemand.md
+      - Dashboards: hpc/portals/dashboards.md
+      - Account/Allocations Portal: hpc/portals/accounts.md
+    - Systems & Hardware:
+      - System Overview: hpc/systems/overview.md
+      - Login Nodes: hpc/systems/login-nodes.md
+      - Compute Nodes: hpc/systems/compute-nodes.md
+      - Partitions/QoS: hpc/systems/partitions.md
+    - Troubleshooting & FAQs:
+      - FAQs: hpc/help/faqs.md
+      - Common Job Failures: hpc/help/job-failures.md
+      - Debugging Jobs: hpc/help/debugging.md
+      - Connection Problems: hpc/help/connection.md
+      - Who to Contact: hpc/help/support.md
+    - Performance & Optimization:
+      - Profiling & Tracing Tools: hpc/perf/tools.md
+      - MPI/OpenMP/Hybrid: hpc/perf/mpi-openmp.md
+      - GPU Performance: hpc/perf/gpu.md
+      - I/O Best Practices: hpc/perf/io.md
+    - Policies & Governance:
+      - User Policy & AUP: hpc/policy/aup.md
+      - Security: hpc/policy/security.md
+      - Allocations: hpc/policy/allocations.md
+      - Maintenance: hpc/policy/maintenance.md
+      - Citing the Facility: hpc/policy/citation.md
+      - Investment Options: hpc/policy/investment.md
+    - Training & How-tos:
+      - Courses: hpc/training/courses.md
+      - Short Videos: hpc/training/videos.md
+      - Guided Tutorials: hpc/training/tutorials.md
+      - Tips & Tricks: hpc/training/tips.md
+    - Reference:
+      - Slurm Directives Cheat Sheet: hpc/ref/slurm-cheatsheet.md
+      - Linux Commands Quick Reference: hpc/ref/linux-cheatsheet.md
+      - Glossary: hpc/ref/glossary.md
+    - "What's New": hpc/changelog/index.md
