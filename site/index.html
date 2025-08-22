@@ -12,8 +12,6 @@
       
       
       
-        <link rel="next" href="hpc/">
-      
       
       <link rel="icon" href="img/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
@@ -55,7 +53,16 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -72,11 +79,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#about-uct-eresearch" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About UCT eResearch
+              Home
             
           </span>
         </div>
@@ -166,11 +168,18 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -211,7 +220,9 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="UCT eResearch Documentation" class="md-nav__button md-logo" aria-label="UCT eResearch Documentation" data-md-component="logo">
       
@@ -227,30 +238,20 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="hpc/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    About UCT eResearch
+    HIGH-PERFORMANCE COMPUTING (HPC)
     
   </span>
   
 
       </a>
-      
     </li>
   
 
@@ -265,7 +266,7 @@
     
       
         
-          
+      
         
       
         
@@ -292,48 +293,39 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <div class="md-nav__link md-nav__container">
-            <a href="hpc/" class="md-nav__link ">
-              
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
-    High Performance Computing
+    Start Here
     
   </span>
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            High Performance Computing
+            Start Here
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
-            
-              
                 
   
   
   
   
     <li class="md-nav__item">
-      <a href="hpc/access/" class="md-nav__link">
+      <a href="hpc/start/quick-start/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Getting access
+    Quick Start
     
   </span>
   
@@ -351,12 +343,12 @@
   
   
     <li class="md-nav__item">
-      <a href="hpc/login/" class="md-nav__link">
+      <a href="hpc/start/access-accounts/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Logging in
+    Access & Accounts
     
   </span>
   
@@ -374,12 +366,58 @@
   
   
     <li class="md-nav__item">
-      <a href="hpc/filetransfer/" class="md-nav__link">
+      <a href="hpc/start/login/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Transferring files
+    Logging In
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/start/first-job/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Running Your First Job
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/start/linux-101/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basic Linux You’ll Use
     
   </span>
   
@@ -407,7 +445,11 @@
     
       
         
-          
+      
+        
+      
+        
+      
         
       
         
@@ -432,34 +474,25 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <div class="md-nav__link md-nav__container">
-            <a href="data/" class="md-nav__link ">
-              
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
   
   
   <span class="md-ellipsis">
-    Research Data Storage
+    Do Work (Run Jobs)
     
   </span>
   
 
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
+            <span class="md-nav__icon md-icon"></span>
+          </label>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            Research Data Storage
+            Do Work (Run Jobs)
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
             
               
                 
@@ -468,12 +501,12 @@
   
   
     <li class="md-nav__item">
-      <a href="data/options/" class="md-nav__link">
+      <a href="hpc/work/scheduler/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Data storage options
+    Scheduler Basics
     
   </span>
   
@@ -491,12 +524,104 @@
   
   
     <li class="md-nav__item">
-      <a href="data/access/" class="md-nav__link">
+      <a href="hpc/work/submit/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Getting access
+    Submit Batch Jobs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/work/interactive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interactive Jobs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/work/arrays-workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arrays & Workflows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/work/gpu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GPUs & Accelerators
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/work/monitoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Monitoring & Efficiency
     
   </span>
   
@@ -514,30 +639,1520 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Software & Environments
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Software & Environments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/modules-basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Modules (Basics)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python on HPC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/r/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    R on HPC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/compilers-libs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compilers & Math Libs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/containers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Containers (Apptainer)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/software/catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Software Catalog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Data & Storage
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Data & Storage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/data/filesystems-quotas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Filesystems & Quotas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/data/transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Move Data (scp/rsync/Globus)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/data/manage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manage Your Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/data/archive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Archive & Retention
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/data/databases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Databases & Datasets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Interactive & Portals
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Interactive & Portals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/portals/ondemand/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open OnDemand
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/portals/dashboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dashboards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/portals/accounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Account/Allocations Portal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Systems & Hardware
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Systems & Hardware
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/systems/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    System Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/systems/login-nodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Login Nodes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/systems/compute-nodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compute Nodes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/systems/partitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Partitions/QoS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting & FAQs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting & FAQs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/help/faqs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/help/job-failures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Common Job Failures
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/help/debugging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Debugging Jobs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/help/connection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Connection Problems
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/help/support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Who to Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Performance & Optimization
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Performance & Optimization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/perf/tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Profiling & Tracing Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/perf/mpi-openmp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MPI/OpenMP/Hybrid
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/perf/gpu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GPU Performance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/perf/io/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    I/O Best Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Policies & Governance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Policies & Governance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/aup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Policy & AUP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/allocations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Allocations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maintenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/citation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Citing the Facility
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/policy/investment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Investment Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Training & How-tos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Training & How-tos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/training/courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Courses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/training/videos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Short Videos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/training/tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guided Tutorials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/training/tips/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tips & Tricks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Reference
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/ref/slurm-cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Slurm Directives Cheat Sheet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/ref/linux-cheatsheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Linux Commands Quick Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/ref/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="hpc/changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What's New
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
                 </div>
               </div>
             
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
             
           
           
@@ -548,7 +2163,9 @@
 
 
 
-<h1 id="about-uct-eresearch">About UCT eResearch</h1>
+  <h1>Home</h1>
+
+<p><a class="glightbox" href="logo.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="eResearch logo" src="logo.png" /></a></p>
 <p>The <strong><a href="https://uct.ac.za/eresearch">University of Cape Town's eResearch Centre</a></strong> is a distributed centre that promotes the use of advanced information technologies in supporting innovative research practice and accelerating and transforming research throughout the research lifecycle. </p>
 
 
@@ -602,8 +2219,6 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-    
     
       <div class="md-consent" data-md-component="consent" id="__consent" hidden>
         <div class="md-consent__overlay"></div>
@@ -656,11 +2271,13 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.sections", "navigation.prune", "navigation.indexes", "content.tabs.link"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tracking", "navigation.sections", "navigation.prune", "navigation.indexes", "content.tabs.link", "toc.integrate", "navigation.path", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.code.select", "content.code.annotate", "toc.follow"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.50899def.min.js"></script>
       
     
-  </body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
