@@ -87,25 +87,25 @@ If you have any suggestions to improve this file, please create an Issue or emai
 
 ####    b) Contributing approved/minor changes 
 
-      - Make changes to the local repository in VSCode or another IDE
-      - Open the folder that contains the repo files
-      - Make edits and save locally
-      - Please make sure the changes render as you expected them to and nothing else is broken.
-        - If you are already running `mkdocs server`, the changes will automatically be rendered on the localhost – no need to rebuild.
-        - Alternatively, run `mkdocs server` again from the command line interface. 
-        - If you are happy with your changes proceed to the next step 
+- Make changes to the local repository in VSCode or another IDE
+- Open the folder that contains the repo files
+- Make edits and save locally
+- Please make sure the changes render as you expected them to and nothing else is broken.
+   - If you are already running `mkdocs server`, the changes will automatically be rendered on the localhost – no need to rebuild.
+   - Alternatively, run `mkdocs server` again from the command line interface. 
+      - If you are happy with your changes proceed to the next step 
       - Stage edits on the local git repo 
         - Read more: https://git-scm.com/docs/git-add
         - `git add –A`   \[-A if you want to stage all changes\] 
 
-      - Commit changes
-        - Read more: https://git-scm.com/docs/git-commit 
-        - `git commit –m “Git commit message”`
+   - Commit changes
+      - Read more: https://git-scm.com/docs/git-commit 
+      - `git commit –m “Git commit message”`
 
-      - Push changes to the remote ‘origin’ repository (this is the fork in your own GitHub account) 
-        - Read more: https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository 
-        - `git push origin main` (if `main` is the branch you want to push to. Please note this workflow is currently under review and will be updated to ensure we follow best practices)
+   - Push changes to the remote ‘origin’ repository (this is the fork in your own GitHub account) 
+      - Read more: https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository 
+      - `git push origin main` (if `main` is the branch you want to push to. Please note this workflow is currently under review and will be updated to ensure we follow best practices)
 
-      - In GitHub, create a Pull Request 
-        - Read more: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request  
-        - The documentation team will review the Pull Request before merging into the main documentation. 
+   - In GitHub, create a Pull Request
+      - Read more: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request  
+      - The documentation team will review the Pull Request before merging into the main documentation. 
