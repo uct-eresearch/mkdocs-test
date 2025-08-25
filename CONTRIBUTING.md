@@ -22,7 +22,7 @@ If you have any suggestions to improve this file, please create an Issue or emai
 - Add the SSH key to Github by following the instructions in the link above
 
 ### 5. Install an editor of your choice e.g. VS Code
-     - https://code.visualstudio.com/download  
+- https://code.visualstudio.com/download  
 
 ### 6. Install Python locally
 - https://www.python.org/downloads/  
@@ -91,12 +91,13 @@ If you have any suggestions to improve this file, please create an Issue or emai
 - Open the folder that contains the repo files
 - Make edits and save locally
 - Please make sure the changes render as you expected them to and nothing else is broken.
-   - If you are already running `mkdocs server`, the changes will automatically be rendered on the localhost – no need to rebuild.
-   - Alternatively, run `mkdocs server` again from the command line interface. 
-      - If you are happy with your changes proceed to the next step 
-      - Stage edits on the local git repo 
-        - Read more: https://git-scm.com/docs/git-add
-        - `git add –A`   \[-A if you want to stage all changes\] 
+     - If you are already running `mkdocs server`, the changes will automatically be rendered on the localhost – no need to rebuild.
+     - Alternatively, run `mkdocs server` again from the command line interface. 
+     - If you are happy with your changes proceed to the next step 
+
+- Stage edits on the local git repo 
+     - Read more: https://git-scm.com/docs/git-add
+     - `git add –A`   \[-A if you want to stage all changes\] 
 
 - Commit changes
    - Read more: https://git-scm.com/docs/git-commit 
