@@ -1,5 +1,7 @@
 # Glossary
 
+## HPC-related terminology
+
 `Cluster`
 
 :   A group of linked computers, known as nodes, that work together to perform complex computations, aggregating their processing power, memory, and storage to solve demanding tasks. 
@@ -13,11 +15,9 @@
 :   The primary processor in a node, though the term can be ambiguous and is sometimes avoided due to potential misunderstandings. 
 
  
-
 `Core`
 
 :   The smallest unit of computing within a processor, capable of executing instructions; modern processors have multiple cores. 
-
  
 
 `Thread`
