@@ -113,4 +113,9 @@ nav:
   - Research Software Engineering (RSE):
       - RESOURCES: rse/resources.md
       - TRAINING: rse/training.md
+  - Contributing guide:
+      - BEST PRACTICES FOR eRESEARCH DOCS: contribute/best_practices.md
+      - STYLEGUIDE: contribute/styleguide.md
+      - COLLABORATE ON eRESEARCH DOCS: contribute/collaborate.md
+      - YOUR WORKING ENVIRONMENT: contribute/environment.md
   - Glossary of Terms: glossary.md
